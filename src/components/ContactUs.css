@@ -1,0 +1,11 @@
+@media only screen and (max-width: 1024px) {
+#_name{
+width: 100% !important;
+}
+#_email{
+width: 100% !important;
+}
+#_phone{
+width: 100% !important;
+}
+}

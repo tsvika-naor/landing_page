@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "lp.milestone_berlin": "landing-milestone-berlin",
+    "default": "landing-milestone-berlin",
+    "staging": "landingpage-462d5"
+  }
+}
