@@ -5,9 +5,12 @@ import './ContactUs.css';
 export default function ContactUs () {
 
   const account = {
-    serviceID: "service_mwlehg6",
-    userID: "user_z0WUFF9xpZY2cCEGeexHg",
-    templateID: "template_7mdq8bp"
+    // serviceID: "service_mwlehg6",
+    // userID: "user_z0WUFF9xpZY2cCEGeexHg",
+    // templateID: "template_7mdq8bp"
+    serviceID: "",
+    userID: "",
+    templateID: ""
   }
   const [form, setForm] = useState({
     name: "",
