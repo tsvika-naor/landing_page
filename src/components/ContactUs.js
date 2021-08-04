@@ -3,14 +3,11 @@ import emailjs from 'emailjs-com';
 
 import './ContactUs.css';
 export default function ContactUs () {
-
+  console.log(process.env.REACT_APP_TEMPLATEID)
   const account = {
-    // serviceID: "service_mwlehg6",
-    // userID: "user_z0WUFF9xpZY2cCEGeexHg",
-    // templateID: "template_7mdq8bp"
-    serviceID: "",
-    userID: "",
-    templateID: ""
+    serviceID: process.env.REACT_APP_SERVICEID,
+    userID: process.env.REACT_APP_USERID,
+    templateID: process.env.REACT_APP_TEMPLATEID
   }
   const [form, setForm] = useState({
     name: "",
